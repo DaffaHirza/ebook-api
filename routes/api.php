@@ -4,6 +4,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HeloController;
 use App\Http\Controllers\SiswaController;
+use App\Http\Controllers\BookController;
 
 
 /*
@@ -28,3 +29,4 @@ Route::get('Hallo', function(){
 
 Route::resource('halcontroller', HeloController::Class);
 Route::resource('siswa', SiswaController::class);
+Route::resource('books', BookController::class);
